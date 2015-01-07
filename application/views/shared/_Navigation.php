@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img class="nav-logo" alt="Testo" src="/assets/img/testo-logo.png"/></a>
+      <a class="navbar-brand" href="/"><img class="nav-logo" alt="CB" src="/assets/img/logo.png"/></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
