@@ -11,16 +11,16 @@ class Example extends CI_Controller {
 
 	public function index()
 	{
-			$data['content'] = "/example/index";
-      $this->load->view('shared/_Layout', $data);
+		$data['content'] = "/example/index";
+      	$this->load->view('shared/_Layout', $data);
 	}
 
 	public function get_data(){
-			$data['alertMode'] = "info";
-			$data['alertMessage'] = "This is an alert message of type info";
-			$data['mydata'] = $this->example_model->get_data();
-			$data['content'] = "/example/index";
-			$this->load->view('shared/_Layout', $data);
+		$data['alertMode'] = "info";
+		$data['alertMessage'] = "This is an alert message of type info";
+		$data['mydata'] = $this->example_model->get_data();
+		$data['content'] = "/example/index";
+		$this->load->view('shared/_Layout', $data);
 	}
 }
 

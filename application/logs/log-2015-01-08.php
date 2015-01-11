@@ -5703,3 +5703,31 @@ DEBUG - 2015-01-08 23:09:54 --> File loaded: ../application/views//example/index
 DEBUG - 2015-01-08 23:09:54 --> File loaded: ../application/views/shared/_Layout.php
 DEBUG - 2015-01-08 23:09:54 --> Final output sent to browser
 DEBUG - 2015-01-08 23:09:54 --> Total execution time: 1.9728
+DEBUG - 2015-01-08 23:11:22 --> Config Class Initialized
+DEBUG - 2015-01-08 23:11:22 --> Hooks Class Initialized
+DEBUG - 2015-01-08 23:11:22 --> Utf8 Class Initialized
+DEBUG - 2015-01-08 23:11:22 --> UTF-8 Support Enabled
+DEBUG - 2015-01-08 23:11:22 --> URI Class Initialized
+DEBUG - 2015-01-08 23:11:22 --> Router Class Initialized
+DEBUG - 2015-01-08 23:11:22 --> No URI present. Default controller set.
+DEBUG - 2015-01-08 23:11:22 --> Output Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Security Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Input Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-01-08 23:11:23 --> Language Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Loader Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Helper loaded: url_helper
+DEBUG - 2015-01-08 23:11:23 --> Helper loaded: form_helper
+DEBUG - 2015-01-08 23:11:23 --> Database Driver Class Initialized
+ERROR - 2015-01-08 23:11:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/watze/Documents/_appDevelopment/workhours/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-01-08 23:11:23 --> Session Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Helper loaded: string_helper
+DEBUG - 2015-01-08 23:11:23 --> Session routines successfully run
+DEBUG - 2015-01-08 23:11:23 --> Controller Class Initialized
+DEBUG - 2015-01-08 23:11:23 --> Model Class Initialized
+DEBUG - 2015-01-08 23:11:24 --> Model Class Initialized
+DEBUG - 2015-01-08 23:11:24 --> File loaded: ../application/views//shared/_Navigation.php
+DEBUG - 2015-01-08 23:11:24 --> File loaded: ../application/views//example/index.php
+DEBUG - 2015-01-08 23:11:24 --> File loaded: ../application/views/shared/_Layout.php
+DEBUG - 2015-01-08 23:11:24 --> Final output sent to browser
+DEBUG - 2015-01-08 23:11:24 --> Total execution time: 1.9099
