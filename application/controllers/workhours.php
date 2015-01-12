@@ -11,8 +11,8 @@ class Workhours extends CI_Controller {
 
 	public function index()
 	{
-			$data['content'] = "/workhours/index";
-      $this->load->view('shared/_Layout', $data);
+		$data['content'] = "/workhours/index";
+      	$this->load->view('shared/_Layout', $data);
 	}
 
 	public function new_entry(){

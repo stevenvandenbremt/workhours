@@ -7,6 +7,13 @@ body
 	padding-top: 70px;/*fix for fixed-top navbar*/
 	padding-bottom: 30px;
 }
+.color-red{
+	color: #c0392b;
+}
+
+.glyp-large{
+	font-size: 1.5em;
+}
 .cs-nav
 {
 	

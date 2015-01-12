@@ -98,6 +98,12 @@ public function appointmentOverview()
 		$data['content'] = "/workday/create";
 		$this->load->view('shared/_Layout', $data);
 	}
+    public function add_start_time(){
+        redirect('/workday');
+    }
+    public function add_stop_time(){
+        redirect('/workday');
+    }
 
 	public function delete($id){
 		
