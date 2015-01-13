@@ -42,5 +42,12 @@ $route['default_controller'] = "example";
 $route['404_override'] = '';
 
 
+/*
+	route is set to not need /index in the url.
+	Otherwise pagination doesn't work on the index page because it can't listen to numbers in segment 2
+*/
+$route['workday/(:num)'] = 'workday/index/$1';
+
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

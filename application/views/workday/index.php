@@ -53,5 +53,6 @@ foreach ($result as $key => $value) {
 ?>
 
 </table>
+<?php echo $pagination_links; ?>
 </div>
 </div>
