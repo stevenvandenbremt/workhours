@@ -1,18 +1,19 @@
 <?php
 $lable_attributes = array(
-    'class' => 'col-md-1 control-label',
+    'class' => 'col-xs-1 control-label',
 );
 $form_attributes = array(
     'class' => 'form-horizontal',
 );
 
 $current_date = date('d-m-Y');
-$current_hour = date('h');
+$current_hour = date('H');
 $current_minutes = date('i');
 ?>
 
-<h2>add</h2>
-
+<div class="page-header">
+  <h1>New workday <small>Add start and stop hours</small></h1>
+</div>
 <div class="well">
 <?php echo form_open('workday/add_start_time', $form_attributes);?>
 
@@ -105,7 +106,7 @@ $current_minutes = date('i');
 
 <div class="form-group">
         <?php echo form_label('Current date:', 'current_date', $lable_attributes);?>
-        <div class="col-md-1">
+        <div class="col-md-2">
             <?php
             $data = array(
                 'name' => 'current_date',
