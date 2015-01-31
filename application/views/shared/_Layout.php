@@ -35,12 +35,14 @@
     <?php $this->load->view($content); ?>
 </div>
 
+<script src="<?php echo base_url('assets/js/angular.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrapValidator.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrap-datepicker.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.validate.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/toastr.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/make_toast.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
 </body>
 </html>

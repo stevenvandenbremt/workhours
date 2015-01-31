@@ -7,6 +7,7 @@
 <br />
 <div class="row">
 <div class="col-xs-12">
+
 <table class="table">
 
 <th>Update</th>
@@ -19,35 +20,22 @@
 <?php
 foreach ($result as $key => $value) {
 
-	
-
-	
-
-
-
 	echo '<tr>';
 		echo '<td>';
 			echo '<a href="/workday/edit/' . $value->id . '"><span class="glyphicon glyphicon-edit glyp-large"></span></a>';
 		echo '</td>';
 		echo '<td>';
-			echo date("d-m-Y", strtotime($value->date_workday));
+			echo date("d-m-Y", strtotime($value->workday_date));
 		echo '</td>';
-		echo '<td>';
-			echo (($value->start_time_hour <= 9) ? '0' : '' ) . $value->start_time_hour . "h" . (($value->start_time_minutes <= 9) ? '0' : '' ) . $value->start_time_minutes;
-		echo '</td>';
-		echo '<td>';
-			echo (($value->stop_time_hour <= 9) ? '0' : '' ) . $value->stop_time_hour . "h" . (($value->stop_time_minutes <= 9) ? '0' : '' ) . $value->stop_time_minutes;
-		echo '</td>';
+		foreach ($value->batchtimes as $key => $value) {
+			echo '<td>';
+				echo date("H:i", strtotime($value->batchtime));
+			echo '</td>';
+		}
 		echo '<td>';
 			echo '<a href="/workday/delete/' . $value->id . '"><span class="glyphicon glyphicon-trash glyp-large color-red"></span></a>';
 		echo '</td>';
 	echo '</tr>';
-
-
-
-	
-
-
 }
 
 ?>

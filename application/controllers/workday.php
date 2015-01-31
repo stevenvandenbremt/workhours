@@ -9,7 +9,7 @@ class Workday extends CI_Controller {
 		$this->load->library('table');
         $this->load->library('pagination');
 
-        $this->load->model('workday_model');
+        $this->load->model('workday_model', 'workday');
 
 	}
 
@@ -32,7 +32,7 @@ class Workday extends CI_Controller {
         $config['last_tag_open'] = "<li>";
         $config['last_tag_close'] = "</li>";
         $config['base_url'] = base_url('/workday');
-        $config['total_rows'] = $this->workday_model->count_all();
+        $config['total_rows'] = $this->workday->count_all();
         $config['per_page'] = 5;
         $config['uri_segment'] = 2;
 
@@ -41,7 +41,18 @@ class Workday extends CI_Controller {
         $page = $this->uri->segment(2,0);
 
 
-        $data['result'] = $this->workday_model->limit($config['per_page'], $page)->get_all();
+        /* little example
+
+        $post = $this->post_model->with('author')
+                         ->with('comments')
+                         ->get(1);
+        */
+
+
+
+        $data['result'] = $this->workday->limit($config['per_page'], $page)
+                                    ->with('batchtimes')
+                                    ->get_all();
         $data['pagination_links'] = $this->pagination->create_links();
 
 		
@@ -55,7 +66,11 @@ class Workday extends CI_Controller {
 		$this->load->view('shared/_Layout', $data);
 	}
     public function add_start_time(){
-        redirect('/workday');
+        $batchtime = $this->post->batchtime_hour . ':' . $this->post->batchtime_minutes;
+
+        $result['batchtime'] = $batchtime;
+
+        echo json_encode($result);
     }
     public function add_stop_time(){
         redirect('/workday');
