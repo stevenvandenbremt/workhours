@@ -10,6 +10,7 @@ class Workday extends CI_Controller {
         $this->load->library('pagination');
 
         $this->load->model('workday_model', 'workday');
+        $this->load->model('batchtime_model', 'batchtime');
 
 	}
 
@@ -75,13 +76,15 @@ class Workday extends CI_Controller {
             
             $row = $this->workday->get_by('workday_date', $post_data['passed_date']);
             $workday_id = $row->id;
+            $batchtime_insert_id = $this->batchtime->insert(array('batchtime' => $post_data['batchtime'], 'workday_id' => $workday_id), FALSE);
 
             $result['toast_message'] = 'date found: ' . $workday_id;
 
         }else{
             
             $insert_id = $this->workday->insert(array('workday_date' => $post_data['passed_date'], 'user_id'=> 1), FALSE);
-            $result['toast_message'] = 'date not found, but created: ' . $insert_id;
+            $batchtime_insert_id = $this->batchtime->insert(array('batchtime' => $post_data['batchtime'], 'workday_id' => $insert_id), FALSE);
+            $result['toast_message'] = 'batchtime inserted';
         }
 
 

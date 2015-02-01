@@ -1671,3 +1671,119 @@ DEBUG - 2015-02-01 13:35:36 --> Helper loaded: inflector_helper
 DEBUG - 2015-02-01 13:35:36 --> Model Class Initialized
 DEBUG - 2015-02-01 13:35:36 --> Final output sent to browser
 DEBUG - 2015-02-01 13:35:36 --> Total execution time: 0.5963
+DEBUG - 2015-02-01 13:40:53 --> Config Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Hooks Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Utf8 Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> UTF-8 Support Enabled
+DEBUG - 2015-02-01 13:40:54 --> URI Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Router Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Output Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Security Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Input Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-01 13:40:54 --> Language Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Loader Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Helper loaded: url_helper
+DEBUG - 2015-02-01 13:40:54 --> Helper loaded: form_helper
+DEBUG - 2015-02-01 13:40:54 --> Database Driver Class Initialized
+ERROR - 2015-02-01 13:40:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/watze/Documents/_appDevelopment/workhours/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-01 13:40:54 --> Session Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Helper loaded: string_helper
+DEBUG - 2015-02-01 13:40:54 --> Session routines successfully run
+DEBUG - 2015-02-01 13:40:54 --> Controller Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Table Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Pagination Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Model Class Initialized
+DEBUG - 2015-02-01 13:40:54 --> Helper loaded: inflector_helper
+DEBUG - 2015-02-01 13:40:54 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Config Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Hooks Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Utf8 Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> UTF-8 Support Enabled
+DEBUG - 2015-02-01 13:41:09 --> URI Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Router Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Output Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Security Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Input Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-01 13:41:09 --> Language Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Loader Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Helper loaded: url_helper
+DEBUG - 2015-02-01 13:41:09 --> Helper loaded: form_helper
+DEBUG - 2015-02-01 13:41:09 --> Database Driver Class Initialized
+ERROR - 2015-02-01 13:41:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/watze/Documents/_appDevelopment/workhours/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-01 13:41:09 --> Session Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Helper loaded: string_helper
+DEBUG - 2015-02-01 13:41:09 --> Session routines successfully run
+DEBUG - 2015-02-01 13:41:09 --> Controller Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Table Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Pagination Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Helper loaded: inflector_helper
+DEBUG - 2015-02-01 13:41:09 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:09 --> File loaded: ../application/views//shared/_Navigation.php
+DEBUG - 2015-02-01 13:41:09 --> File loaded: ../application/views//workday/create.php
+DEBUG - 2015-02-01 13:41:10 --> File loaded: ../application/views/shared/_Layout.php
+DEBUG - 2015-02-01 13:41:10 --> Final output sent to browser
+DEBUG - 2015-02-01 13:41:10 --> Total execution time: 0.6814
+DEBUG - 2015-02-01 13:41:11 --> Config Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Hooks Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Utf8 Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> UTF-8 Support Enabled
+DEBUG - 2015-02-01 13:41:11 --> URI Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Router Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Output Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Security Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Input Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-01 13:41:11 --> Language Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Loader Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Helper loaded: url_helper
+DEBUG - 2015-02-01 13:41:11 --> Helper loaded: form_helper
+DEBUG - 2015-02-01 13:41:11 --> Database Driver Class Initialized
+ERROR - 2015-02-01 13:41:11 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/watze/Documents/_appDevelopment/workhours/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-01 13:41:11 --> Session Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Helper loaded: string_helper
+DEBUG - 2015-02-01 13:41:11 --> Session routines successfully run
+DEBUG - 2015-02-01 13:41:11 --> Controller Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Table Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Pagination Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Helper loaded: inflector_helper
+DEBUG - 2015-02-01 13:41:11 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:11 --> Final output sent to browser
+DEBUG - 2015-02-01 13:41:11 --> Total execution time: 0.6251
+DEBUG - 2015-02-01 13:41:37 --> Config Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Hooks Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Utf8 Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> UTF-8 Support Enabled
+DEBUG - 2015-02-01 13:41:37 --> URI Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Router Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Output Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Security Class Initialized
+DEBUG - 2015-02-01 13:41:37 --> Input Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-01 13:41:38 --> Language Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Loader Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Helper loaded: url_helper
+DEBUG - 2015-02-01 13:41:38 --> Helper loaded: form_helper
+DEBUG - 2015-02-01 13:41:38 --> Database Driver Class Initialized
+ERROR - 2015-02-01 13:41:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/watze/Documents/_appDevelopment/workhours/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-01 13:41:38 --> Session Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Helper loaded: string_helper
+DEBUG - 2015-02-01 13:41:38 --> Session routines successfully run
+DEBUG - 2015-02-01 13:41:38 --> Controller Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Table Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Pagination Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Helper loaded: inflector_helper
+DEBUG - 2015-02-01 13:41:38 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> Model Class Initialized
+DEBUG - 2015-02-01 13:41:38 --> File loaded: ../application/views//shared/_Navigation.php
+DEBUG - 2015-02-01 13:41:38 --> File loaded: ../application/views//workday/index.php
+DEBUG - 2015-02-01 13:41:38 --> File loaded: ../application/views/shared/_Layout.php
+DEBUG - 2015-02-01 13:41:38 --> Final output sent to browser
+DEBUG - 2015-02-01 13:41:38 --> Total execution time: 0.7281
