@@ -65,6 +65,31 @@ class Workday extends CI_Controller {
 		$data['content'] = "/workday/create";
 		$this->load->view('shared/_Layout', $data);
 	}
+    public function add_batchtime(){
+
+        $post_data['passed_date'] = date('Y-m-d' , strtotime($this->input->post('passed_date')));
+        $post_data['batchtime'] = date('H:i' , strtotime($this->input->post('batchtime_hour') . ':' . $this->input->post('batchtime_minutes')));
+
+        $count = $this->workday->count_by('workday_date', $post_data['passed_date']);
+        if($count == 1){
+            
+            $row = $this->workday->get_by('workday_date', $post_data['passed_date']);
+            $workday_id = $row->id;
+
+            $result['toast_message'] = 'date found: ' . $workday_id;
+
+        }else{
+            
+            $insert_id = $this->workday->insert(array('workday_date' => $post_data['passed_date'], 'user_id'=> 1), FALSE);
+            $result['toast_message'] = 'date not found, but created: ' . $insert_id;
+        }
+
+
+        //$result['toast_message'] = "return from add batchtime";
+        echo json_encode($result);
+    }
+
+
     public function add_start_time(){
         $batchtime = $this->post->batchtime_hour . ':' . $this->post->batchtime_minutes;
 

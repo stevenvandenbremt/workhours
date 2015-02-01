@@ -4,15 +4,20 @@ $lable_attributes = array(
 );
 $form_attributes = array(
     'class' => 'form-horizontal',
+    'id' => 'batchtime_form',
 );
 
-$current_date = date('d-m-Y');
+$current_date = date('d-M-Y');
 $current_hour = date('H');
 $current_minutes = date('i');
 ?>
 
 <div class="page-header">
   <h1>Workday <small>Add batchtime</small></h1>
+
+  date example:
+<?php echo $current_date; ?>
+
 </div>
 <div class="well">
 <?php echo form_open('workday/add_batchtime', $form_attributes);?>
