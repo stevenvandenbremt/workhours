@@ -12,6 +12,8 @@ class Workday extends CI_Controller {
         $this->load->model('workday_model', 'workday');
         $this->load->model('batchtime_model', 'batchtime');
 
+
+
 	}
 
 	public function index()
@@ -60,6 +62,16 @@ class Workday extends CI_Controller {
 		$data['content'] = "/workday/index";
       	$this->load->view('shared/_Layout', $data);
 	}
+
+    public function index_mobile(){
+
+
+        $data['result'] = $this->workday->with('batchtimes')->get_all();
+
+
+        $data['content'] = "/workday/index-mobile";
+        $this->load->view('shared/_Layout-mobile', $data);
+    }
 
 	public function create(){
 		

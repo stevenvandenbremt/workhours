@@ -12,6 +12,7 @@
     <title>Project <?php if(isset($title)){echo $title;}?></title>
 
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/jquery.mobile.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrapValidator.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/datepicker.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/toastr.min.css'); ?>" rel="stylesheet">
@@ -36,6 +37,7 @@
 </div>
 
 <script src="<?php echo base_url('assets/js/angular.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/jquery.mobile.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrapValidator.min.js'); ?>"></script>
